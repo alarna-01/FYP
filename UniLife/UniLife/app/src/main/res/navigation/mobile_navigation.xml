@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.calenderapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_focus_keeper"
+        android:name="com.example.calenderapp.ui.focus_keeper.FocusKeeperFragment"
+        android:label="@string/menu_timer"
+        tools:layout="@layout/fragment_focus_keeper" />
+
+    <fragment
+        android:id="@+id/nav_course_details"
+        android:name="com.example.calenderapp.ui.course_details.CourseDetailsFragment"
+        android:label="@string/menu_course_details"
+        tools:layout="@layout/fragment_course_details" >
+        <action
+            android:id="@+id/action_nav_course_details_to_addModuleFragment"
+            app:destination="@id/addModuleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.calenderapp.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/addModuleFragment"
+        android:name="com.example.calenderapp.ui.course_details.AddModuleFragment"
+        android:label="fragment_add_module"
+        tools:layout="@layout/fragment_add_module" />
+</navigation>

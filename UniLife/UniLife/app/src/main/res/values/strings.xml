@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">UniLife</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_timer">Focus Tracker</string>
+    <string name="menu_course_details">Course Details</string>
+    <string name="menu_profile">Personal Profile</string>
+
+    <string name="already">Already have an account?<b> Login Now</b></string>
+    <string name="not_have">Don\'t have an Account?<b> Create New</b></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
